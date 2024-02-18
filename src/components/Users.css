@@ -1,0 +1,22 @@
+.card-img{
+    width: 130px;
+    height: 125px;
+    border-radius: 70px;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.card-img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.content-show{
+    width: -webkit-fill-available; 
+}
+@media (min-width: 992px) {
+    .content-show.offcanvas.offcanvas-start.show {
+      width: -webkit-fill-available; 
+    }
+  }
